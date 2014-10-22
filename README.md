@@ -13,12 +13,11 @@ Then the tidy data set will be in the global environment. If you want to output 
         
 A text file called "tidydataset.txt" will be created in the working directory.
 
-<<<<<<< HEAD
-**# Part I #**
+
+** Part I **
 =======
 
-Part I
->>>>>>> origin/master
+
 
 Now I'll be give a brief introduction of the raw data in the first part.
 
@@ -45,21 +44,14 @@ The data are generated form a set of experiments. You can read the following det
 *5 STANDING*
 
 *6 LAYING*
-=======
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
->>>>>>> origin/master
+
 
 --Subject_train/test.txt: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
 --features.txt: Actually, this file stores all the variable names of the X_train/test. But be careful, when you use the read.table() function to read it, only the 2end column is useful.
 
-<<<<<<< HEAD
-**# Part II #**
+
+** Part II **
 
 In this part, I will present the pipeline for processing the data.
 
@@ -67,11 +59,6 @@ Here is an image for how to put the raw data together from David Hood.
 
 
 
-=======
 
-Part II
->>>>>>> origin/master
-
-In this part, I will present the pipeline for processing the data.
 
     
