@@ -56,17 +56,23 @@ The data are generated form a set of experiments. You can read the following det
 
 In this part, I will present the pipeline for processing the data.
 
-                                
+                                |                |             |
                                 |  feature.txt   |  Activity   |    Subject
                         ________|________________|_____________|__________________
-                                |                |             |
-                                |  X_train.txt   | y_train.txt |subject_train.txt
-                                |________________|_____________|__________________
-                                |                |             |
-                                |  X_test.txt    | y_test.txt  |subject_test.txt
-                                |________________|_____________|__________________
+                          7352  |                |             |
+                          rows  |  X_train.txt   | y_train.txt |subject_train.txt
+                        ________|________________|_____________|__________________
+                          2947  |                |             |
+                          rows  |  X_test.txt    | y_test.txt  |subject_test.txt
+                        ________|________________|_____________|__________________
                                 |                |             |        
-                                |                |             |
+                                | (561 columns)  | (1 column)  |   (1 column)         
+                                |                |             | 
+                                
+First, I'll read all the raw data into R and then put them in a data frame in the way showed above.
+After that ,I'll extract only the columns with "mean()" or "std()" appeared in their column names.
+Then, use the descriptive names to replace the value in the activity column, ie, if there is a "1" appeared in this column, I will replace it with "Walking".
+At last, I'll create the required tidy data set by grouping the data either by activity or by subject, and calculate the average of every column.
 
 
 
