@@ -61,5 +61,4 @@ Subjectmean <- groupmean(dataset1)
 #This is the final tidy data set required.
 tidydataset <- rbind(Activitymean,Subjectmean)
 tidydataset$ActivityorSubject <- rownames(tidydataset)
-message("Now the tidy data set required has been created, type tidydataset
-        to see it")
+tidydataset
