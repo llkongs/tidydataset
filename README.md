@@ -70,8 +70,11 @@ In this part, I will present the pipeline for processing the data.
                                 |                |             | 
                                 
 First, I'll read all the raw data into R and then put them in a data frame in the way showed above.
+
 After that ,I'll extract only the columns with "mean()" or "std()" appeared in their column names.
+
 Then, use the descriptive names to replace the value in the activity column, ie, if there is a "1" appeared in this column, I will replace it with "Walking".
+
 At last, I'll create the required tidy data set by grouping the data either by activity or by subject, and calculate the average of every column.
 
 
