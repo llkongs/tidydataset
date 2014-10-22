@@ -14,7 +14,7 @@ Then the tidy data set will be in the global environment. If you want to output 
 A text file called "tidydataset.txt" will be created in the working directory.
 
 
-** Part I **
+ Part I 
 =======
 
 
@@ -51,7 +51,8 @@ The data are generated form a set of experiments. You can read the following det
 --features.txt: Actually, this file stores all the variable names of the X_train/test. But be careful, when you use the read.table() function to read it, only the 2end column is useful.
 
 
-** Part II **
+ Part II 
+======
 
 In this part, I will present the pipeline for processing the data.
 
