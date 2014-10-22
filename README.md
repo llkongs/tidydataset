@@ -56,7 +56,18 @@ The data are generated form a set of experiments. You can read the following det
 
 In this part, I will present the pipeline for processing the data.
 
-Here is an image for how to put the raw data together from David Hood.
+                                
+                                |  feature.txt   |  Activity   |    Subject
+                        ________|________________|_____________|__________________
+                                |                |             |
+                                |  X_train.txt   | y_train.txt |subject_train.txt
+                                |________________|_____________|__________________
+                                |                |             |
+                                |  X_test.txt    | y_test.txt  |subject_test.txt
+                                |________________|_____________|__________________
+                                |                |             |        
+                                |                |             |
+
 
 
 
